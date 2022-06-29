@@ -21,7 +21,3 @@ function dataValidation(){
         modal.style.display='none'
     },3000)
 }
-function alert(){
-    let aLeArt=document.querySelector(".hoshdar")
-    aLeArt.classList.add("click")
-}
