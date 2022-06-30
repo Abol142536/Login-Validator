@@ -1,4 +1,11 @@
-
+@font-face {
+	font-family: 'isans';
+	src: url('font/IRANSans-Bold.eot') format('eot'),  /* IE6–8 */ url('font/IRANSans-Bold.woff2') format('woff2'),  /* Chrome36+, Opera24+*/ url('font/IRANSans-Bold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	font-weight: bold;
+}
+*{
+  font-family: "isans";
+}
 .login-page {
   width: 360px;
   padding: 8% 0 0;
@@ -25,7 +32,7 @@
   font-size: 14px;
 }
 .form button {
-  font-family: "Roboto", sans-serif;
+  font-family: "isans"
   text-transform: uppercase;
   outline: 0;
   background: #4CAF50;
